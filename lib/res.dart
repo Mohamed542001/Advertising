@@ -1,0 +1,34 @@
+class Res{
+static const String splash = "assets/images/splash.jpg";
+static const String logo = "assets/images/logo.jpg";
+static const String stad1 = "assets/images/stad1.JPG";
+static const String stad2 = "assets/images/stad2.jpeg";
+static const String stad3 = "assets/images/stad3.jpg";
+static const String stad4 = "assets/images/stad4.jpg";
+static const String stad5 = "assets/images/stad5.jpg";
+static const String stad6 = "assets/images/stad6.jpg";
+static const String footballer1 = "assets/images/footballer1.jpg";
+static const String footballer2 = "assets/images/footballer2.jpg";
+static const String basketball = "assets/images/basketball.jpg";
+static const String handball = "assets/images/handball.jpg";
+static const String swimming = "assets/images/swimming.jpg";
+static const String moSalah = "assets/images/moSalah.jpg";
+static const String messi = "assets/images/messi.jpg";
+static const String ronaldo = "assets/images/ronaldo.jpg";
+static const String zidane = "assets/images/zidane.jpg";
+static const String profile = "assets/images/Profile.jpg";
+static const String faceBook = "assets/images/faceBook.png";
+static const String instagram = "assets/images/instagram.png";
+static const String twitter = "assets/images/twitter.png";
+static const String whatsApp = "assets/images/whatsApp.png";
+static const String faceStats = "assets/images/faceStats.jpg";
+static const String twitterStats = "assets/images/twitterStats.jpg";
+static const String telegramStats = "assets/images/telegramStats.jpg";
+static const String file = "assets/images/file.jpg";
+static const String wollet = "assets/images/wollet.jpg";
+static const String visa = "assets/images/visa.jpg";
+static const String mada = "assets/images/mada.jpg";
+static const String sadad = "assets/images/sadad.png";
+static const String masterCard = "assets/images/masterCard.png";
+static const String success = "assets/images/success.png";
+}

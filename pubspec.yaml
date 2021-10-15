@@ -54,8 +54,34 @@ flutter:
     - assets/images/stad1.JPG
     - assets/images/stad2.jpeg
     - assets/images/stad3.jpg
+    - assets/images/stad4.jpg
+    - assets/images/stad5.jpg
+    - assets/images/stad6.jpg
     - assets/images/footballer1.jpg
+    - assets/images/footballer2.jpg
+    - assets/images/basketball.jpg
+    - assets/images/handball.jpg
+    - assets/images/swimming.jpg
+    - assets/images/moSalah.jpg
     - assets/images/Profile.jpg
+    - assets/images/faceBook.png
+    - assets/images/instagram.png
+    - assets/images/twitter.png
+    - assets/images/whatsApp.png
+    - assets/images/messi.jpg
+    - assets/images/ronaldo.jpg
+    - assets/images/zidane.jpg
+    - assets/images/faceStats.jpg
+    - assets/images/twitterStats.jpg
+    - assets/images/telegramStats.jpg
+    - assets/images/file.jpg
+    - assets/images/wollet.jpg
+    - assets/images/visa.jpg
+    - assets/images/mada.jpg
+    - assets/images/sadad.png
+    - assets/images/masterCard.png
+    - assets/images/success.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

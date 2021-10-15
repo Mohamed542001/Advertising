@@ -1,4 +1,4 @@
-import 'package:advertising_app/user/res.dart';
+import 'package:advertising_app/res.dart';
 import 'package:flutter/material.dart';
 
 class HeaderLogo extends StatelessWidget {
