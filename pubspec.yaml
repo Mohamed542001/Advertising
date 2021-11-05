@@ -50,7 +50,7 @@ flutter:
   #   - images/a_dot_ham.jpeg
   assets:
     - assets/images/splash.jpg
-    - assets/images/logo.jpg
+    - assets/images/logo.png
     - assets/images/stad1.JPG
     - assets/images/stad2.jpeg
     - assets/images/stad3.jpg
