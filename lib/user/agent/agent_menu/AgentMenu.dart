@@ -11,7 +11,7 @@ class AgentMenu extends StatelessWidget {
         elevation: 0,
         leading: CircleAvatar(
           radius: 35,
-          backgroundImage: AssetImage(Res.profile,),
+          backgroundImage: AssetImage(Res.Profile,),
         ),
         title: Column(
           crossAxisAlignment: CrossAxisAlignment.start,

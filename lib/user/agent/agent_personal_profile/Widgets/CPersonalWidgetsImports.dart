@@ -1,4 +1,4 @@
-import 'package:advertising_app/user/agent/agent_personal_profile/AgentPersonalProfileImports.dart';
+import 'package:advertising_app/user/agent/agent_personal_Profile/AgentPersonalProfileImports.dart';
 import 'package:advertising_app/general/screens/widgets/DefaultButton.dart';
 import 'package:advertising_app/general/screens/widgets/MyColors.dart';
 import 'package:advertising_app/general/screens/widgets/MyText.dart';

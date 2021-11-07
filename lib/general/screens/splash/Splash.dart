@@ -10,7 +10,7 @@ class _SplashState extends State<Splash> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 4),()=>Navigator.of(context).pushNamed('/mainLogin'));
+    Timer(Duration(seconds: 4),()=>Navigator.of(context).pushNamed('/selectUser'));
   }
   @override
   Widget build(BuildContext context) {
@@ -20,9 +20,9 @@ class _SplashState extends State<Splash> {
         height: double.infinity,
         child: InkWell(
           onTap: (){
-            Navigator.of(context).pushNamed('/mainLogin');
+            Navigator.of(context).pushNamed('/selectUser');
           },
-          child: Image.asset(Res.splash,fit: BoxFit.fill,),
+          child: Image.asset(Res.splash,fit: BoxFit.contain,),
         ),
       ),
     );

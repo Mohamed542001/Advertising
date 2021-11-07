@@ -9,7 +9,7 @@ class BuildRestoreClientButton extends StatelessWidget {
       color: MyColors.primary,
       textColor: MyColors.white,
       onTap: (){
-        Navigator.of(context).pushNamed('/loginAsClient');
+        Navigator.of(context).pushNamed('/login');
       },
       margin: EdgeInsets.symmetric(horizontal: 0,vertical: 0),
 

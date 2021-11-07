@@ -147,7 +147,7 @@ class _BuildAPersonalViewState extends State<BuildAPersonalView> {
                   alignment: Alignment.bottomRight,
                   children: [
                     Image.asset(
-                      Res.profile,
+                      Res.Profile,
                       fit: BoxFit.fill,
                       height: 120,
                       width: 120,

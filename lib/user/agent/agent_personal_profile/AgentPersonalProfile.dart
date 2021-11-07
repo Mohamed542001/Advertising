@@ -161,7 +161,7 @@ class _AgentPersonalProfileState extends State<AgentPersonalProfile> {
                     alignment: Alignment.bottomRight,
                     children: [
                       Image.asset(
-                        Res.profile,
+                        Res.Profile,
                         fit: BoxFit.fill,
                         height: 120,
                         width: 120,

@@ -1,6 +1,7 @@
 import 'package:advertising_app/general/screens/Terms/TermsImports.dart';
 import 'package:advertising_app/general/screens/about_us/AboutUsImports.dart';
-import 'package:advertising_app/general/screens/main_login/MainLoginImports.dart';
+import 'package:advertising_app/general/screens/login/LoginImports.dart';
+import 'package:advertising_app/general/screens/select_user/SelectUserImports.dart';
 import 'package:advertising_app/general/screens/splash/SplashImports.dart';
 import 'package:advertising_app/user/agent/Active_Agent_Account/ActiveAgentAccountImports.dart';
 import 'package:advertising_app/user/agent/Register_New_Agent/RegisterNewAgentImports.dart';
@@ -24,10 +25,8 @@ import 'package:advertising_app/user/client/client_order_details/ClientOrderDeta
 import 'package:advertising_app/user/client/client_sports_celebrities/ClientSportsCelebritiesImports.dart';
 import 'package:flutter/material.dart';
 import 'user/agent/agent_bottom_nav_bar/AgentBottomNavBarImports.dart';
-import 'user/agent/login_as_agent/LoginAsAgentImports.dart';
 import 'user/client/client_bottom_nav_bar/ClientBottomNavBarImports.dart';
-import 'user/client/client_personal_profile/ClientPersonalProfileImports.dart';
-import 'user/client/login_as_client/LoginAsClientImports.dart';
+import 'user/client/client_personal_Profile/ClientPersonalProfileImports.dart';
 
 void main() {
   runApp(MyApp());
@@ -41,9 +40,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Splash(),
       routes: {
-        '/mainLogin':(_)=>MainLogin(),
-        '/loginAsClient':(_)=>LoginAsClient(),
-        '/loginAsAgent':(_)=>LoginAsAgent(),
+        '/selectUser':(_)=>SelectUser(),
+        '/login':(_)=>Login(),
         '/clientForgetPassword':(_)=>ClientForgetPassword(),
         '/agentForgetPassword':(_)=>AgentForgetPassword(),
         '/restoreClientPassword':(_)=>RestoreClientPassword(),

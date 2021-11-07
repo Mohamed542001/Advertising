@@ -49,40 +49,38 @@ flutter:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
   assets:
-    - assets/images/splash.jpg
+    - assets/images/basketball.jpg
+    - assets/images/faceBook.png
+    - assets/images/faceStats.jpg
+    - assets/images/file.jpg
+    - assets/images/footballer1.jpg
+    - assets/images/footballer2.jpg
+    - assets/images/handball.jpg
+    - assets/images/instagram.png
     - assets/images/logo.png
+    - assets/images/mada.jpg
+    - assets/images/masterCard.png
+    - assets/images/messi.jpg
+    - assets/images/moSalah.jpg
+    - assets/images/Profile.jpg
+    - assets/images/ronaldo.jpg
+    - assets/images/sadad.png
+    - assets/images/splash.jpg
     - assets/images/stad1.JPG
     - assets/images/stad2.jpeg
     - assets/images/stad3.jpg
     - assets/images/stad4.jpg
     - assets/images/stad5.jpg
     - assets/images/stad6.jpg
-    - assets/images/footballer1.jpg
-    - assets/images/footballer2.jpg
-    - assets/images/basketball.jpg
-    - assets/images/handball.jpg
-    - assets/images/swimming.jpg
-    - assets/images/moSalah.jpg
-    - assets/images/Profile.jpg
-    - assets/images/faceBook.png
-    - assets/images/instagram.png
-    - assets/images/twitter.png
-    - assets/images/whatsApp.png
-    - assets/images/messi.jpg
-    - assets/images/ronaldo.jpg
-    - assets/images/zidane.jpg
-    - assets/images/faceStats.jpg
-    - assets/images/twitterStats.jpg
-    - assets/images/telegramStats.jpg
-    - assets/images/file.jpg
-    - assets/images/wollet.jpg
-    - assets/images/visa.jpg
-    - assets/images/mada.jpg
-    - assets/images/sadad.png
-    - assets/images/masterCard.png
     - assets/images/success.png
-
-
+    - assets/images/swimming.jpg
+    - assets/images/telegramStats.jpg
+    - assets/images/twitter.png
+    - assets/images/twitterStats.jpg
+    - assets/images/visa.jpg
+    - assets/images/whatsApp.png
+    - assets/images/wollet.jpg
+    - assets/images/zidane.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

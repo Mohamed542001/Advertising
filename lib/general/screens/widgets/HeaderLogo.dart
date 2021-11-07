@@ -9,6 +9,7 @@ class HeaderLogo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      margin: EdgeInsets.all(15),
         alignment: Alignment.center,
         child: Image.asset(
           Res.logo,

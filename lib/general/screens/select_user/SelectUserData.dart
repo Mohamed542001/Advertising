@@ -1,7 +1,6 @@
-part of 'LoginAsClientImports.dart';
+part of 'SelectUserImports.dart';
 
-
-class LoginClientData {
+class LoginData {
   bool passwordVisible=true;
 
   final TextEditingController phoneController=new TextEditingController();
