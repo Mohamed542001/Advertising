@@ -200,7 +200,7 @@ class _AgentOrdersState extends State<AgentOrders> with SingleTickerProviderStat
   Widget buildAgentCurrentItem(List<CurrentItemModel> model,index)=>SingleChildScrollView(
     child: InkWell(
       onTap: (){
-        Navigator.of(context).pushNamed('/agntOrderDetails');
+        Navigator.of(context).pushNamed('/agentOrderDetails');
       },
       child: Container(
         margin: EdgeInsets.all(10),

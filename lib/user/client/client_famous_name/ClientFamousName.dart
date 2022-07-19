@@ -10,29 +10,31 @@ class ClientFamousName extends StatelessWidget {
         color: MyColors.white,
         back: true,
       ),
-      body: Container(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Column(
-              children: [
-                BuildCFamousNameImage(),
-                BuildCFamousNameText(),
-                Container(
-                  child: Card(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        BuildCFamousNameDescription(),
-                        BuildCFamousNameStats(),
-                      ],
+      body: SingleChildScrollView(
+        child: Container(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Column(
+                children: [
+                  BuildCFamousNameImage(),
+                  BuildCFamousNameText(),
+                  Container(
+                    child: Card(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          BuildCFamousNameDescription(),
+                          BuildCFamousNameStats(),
+                        ],
+                      ),
                     ),
                   ),
-                ),
-              ],
-            ),
-            BuildCFamousNameButton(),
-          ],
+                ],
+              ),
+              BuildCFamousNameButton(),
+            ],
+          ),
         ),
       ),
     );

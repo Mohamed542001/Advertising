@@ -10,18 +10,20 @@ class ClientAdPayment extends StatelessWidget {
         color: MyColors.white,
         back: true,
       ),
-      body: Container(
-        margin: EdgeInsets.symmetric(horizontal: 15,vertical: 30),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            BuildCAdPaymentFee(),
-            SizedBox(
-          height: 20,
-        ),
-            BuildCAdPaymentWays(),
-            BuildCAdPaymentButton(),
-          ],
+      body: SingleChildScrollView(
+        child: Container(
+          margin: EdgeInsets.symmetric(horizontal: 15,vertical: 30),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              BuildCAdPaymentFee(),
+              SizedBox(
+            height: 20,
+          ),
+              BuildCAdPaymentWays(),
+              BuildCAdPaymentButton(),
+            ],
+          ),
         ),
       ),
     );
